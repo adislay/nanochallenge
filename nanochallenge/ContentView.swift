@@ -22,8 +22,7 @@ struct ContentView: View {
                 .tabItem { Label("create", systemImage: "plus") }
             PersonalView ()
                 .tabItem { Label("profile", systemImage: "person.fill") }
-            //fix tab bar icons
-            
+           
         }
     }
 }
